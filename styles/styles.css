@@ -1,3 +1,139 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background: teal;
+  background-color: teal;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 380px;
+}
+
+nav {
+  background-color: #154E90;
+  height: 85px;
+}
+
+.data {
+  background-color: #ffffff;
+  height: 660px;
+}
+
+h1 {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+li:first-child {
+  color: #154E90;
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.line-number {
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+li {
+  color: #000000;
+  font-size: 0.75rem;
+}
+
+.direction {
+  background-color: #dadada;
+  /* border-bottom: 1px solid red; */
+  clear: both;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.direction h1 {
+    font-size: 0.70rem;
+}
+
+.change-of-service-cat-1 {
+  color: red;
+}
+
+.change-of-service-cat-2 {
+  color: red;
+}
+
+.lines {
+  /* background-color: red; */
+  width: 25%;
+  float: left;
+  padding: 10px 0px;
+  padding-left: 10px;
+  line-height: 1.80rem;
+}
+
+.destination {
+  /* background-color: yellow; */
+  width: 45%;
+  float: left;
+  padding: 10px 0px;
+  line-height: 1.80rem;
+}
+
+.arrives {
+  /* background-color: magenta; */
+  width: 30%;
+  float: left;
+  padding: 10px 0px;
+  padding-right: 10px;
+  line-height: 1.80rem;
+}
+
+.bar {
+  color: white;
+  text-transform: capitalize;
+  font-size: 0.75rem;
+  text-align: center;
+  /* padding-top: 40px; */
+}
+
+.fa-bars {
+  color: white;
+  font-size: .75rem;
+}
+
+.back-arrow {
+  /* background-color: red; */
+  width: 20%;
+  float: left;
+  padding-top: 55px;
+  padding-left: 10px;
+}
+
+.stop-name {
+  /* background-color: yellow; */
+  width: 60%;
+  float: left;
+  padding-top: 60px;
+}
+
+.stop-name h1 {
+  /* background-color: yellow; */
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.hamburger {
+  /* background-color: magenta; */
+  width: 20%;
+  float: left;
+  padding-top: 55px;
+  padding-right: 20px;
+  text-align: right;
+  /* font-size: 1rem; */
 }
