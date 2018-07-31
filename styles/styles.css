@@ -21,6 +21,7 @@ nav {
 .data {
   background-color: #ffffff;
   height: 660px;
+  border: 1px red solid;
 }
 
 h1 {
@@ -136,4 +137,75 @@ li {
   padding-right: 20px;
   text-align: right;
   /* font-size: 1rem; */
+}
+
+/* heading styles */
+
+.heading {
+  margin-top: 12px;
+}
+
+.first-column {
+  /* background-color: green; */
+  color: #154E90;
+  width: 33.33%;
+  float: left;
+  text-transform: capitalize;
+  padding-left: 10px;
+}
+
+.second-column {
+  /* background-color: yellow; */
+  color: #154E90;
+  width: 33.33%;
+  float: left;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.third-column  {
+  /* background-color: magenta; */
+  color: #154E90;
+  width: 33.33%;
+  float: left;
+  text-transform: capitalize;
+  padding-right: 10px;
+  text-align: right;
+}
+
+/* end heading styles */
+
+/* line styles */
+
+.line-number {
+  /* background-color: green; */
+  color: #154E90;
+  width: 33.33%;
+  float: left;
+  text-transform: capitalize;
+  padding-left: 10px;
+}
+
+.route-name {
+  /* background-color: yellow; */
+  color: #154E90;
+  width: 33.33%;
+  float: left;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.arrival-time  {
+  /* background-color: magenta; */
+  color: #154E90;
+  width: 33.33%;
+  float: left;
+  text-transform: capitalize;
+  padding-right: 10px;
+  text-align: right;
+}
+/* end line styles */
+
+.line {
+  clear: both;
 }
