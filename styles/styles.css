@@ -18,10 +18,14 @@ nav {
   height: 85px;
 }
 
+img {
+  width: 380px;
+}
+
 .data {
   background-color: #ffffff;
-  height: 660px;
-  border: 1px red solid;
+  height: 700px;
+  /* border: 1px red solid; */
 }
 
 h1 {
@@ -56,7 +60,9 @@ li {
 }
 
 .direction h1 {
-    font-size: 0.70rem;
+  font-size: 0.70rem;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 500;
 }
 
 .change-of-service-cat-1 {
@@ -110,7 +116,7 @@ li {
   /* background-color: red; */
   width: 20%;
   float: left;
-  padding-top: 55px;
+  padding-top: 30px;
   padding-left: 10px;
 }
 
@@ -118,7 +124,7 @@ li {
   /* background-color: yellow; */
   width: 60%;
   float: left;
-  padding-top: 60px;
+  padding-top: 35px;
 }
 
 .stop-name h1 {
@@ -133,7 +139,7 @@ li {
   /* background-color: magenta; */
   width: 20%;
   float: left;
-  padding-top: 55px;
+  padding-top: 30px;
   padding-right: 20px;
   text-align: right;
   /* font-size: 1rem; */
@@ -142,13 +148,17 @@ li {
 /* heading styles */
 
 .heading {
-  margin-top: 12px;
+  margin-top: 15px;
+  /* border: red 1px solid; */
+  background-color: #ffffff;
+  height: 30px;
+  padding-top: 10px;
 }
 
 .first-column {
   /* background-color: green; */
   color: #154E90;
-  width: 33.33%;
+  width: 25%;
   float: left;
   text-transform: capitalize;
   padding-left: 10px;
@@ -157,7 +167,7 @@ li {
 .second-column {
   /* background-color: yellow; */
   color: #154E90;
-  width: 33.33%;
+  width: 50%;
   float: left;
   text-transform: capitalize;
   font-size: 1rem;
@@ -166,46 +176,121 @@ li {
 .third-column  {
   /* background-color: magenta; */
   color: #154E90;
-  width: 33.33%;
+  width: 25%;
   float: left;
   text-transform: capitalize;
   padding-right: 10px;
-  text-align: right;
+  text-align: left;
 }
 
 /* end heading styles */
 
 /* line styles */
 
+.line {
+  clear: both;
+  /* border: blue 1px solid; */
+  color: green;
+  height: 65px;
+  padding-top: 15px;
+  /* margin: 0px 10px; */
+  border-bottom: 1px #dadada solid;
+}
+
+.line:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
 .line-number {
   /* background-color: green; */
   color: #154E90;
-  width: 33.33%;
+  width: 25%;
   float: left;
   text-transform: capitalize;
   padding-left: 10px;
+  height: 30px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.line-number h2 {
+  font-family: 'roboto', 'sans-serif';
+  font-size: 1.65rem;
+  color: #000000;
+  font-weight: 400;
 }
 
 .route-name {
   /* background-color: yellow; */
   color: #154E90;
-  width: 33.33%;
+  width: 50%;
   float: left;
   text-transform: capitalize;
   font-size: 1rem;
 }
 
+.route-name h2 {
+  font-family: 'roboto', 'sans-serif';
+  font-weight: 400;
+  color: #000000;
+  padding-top: 5px;
+  font-size: 0.80rem;
+  text-transform: uppercase;
+}
+
+.route-name h3 {
+  font-family: 'roboto', 'sans-serif';
+  font-weight: 400;
+  color: gray;
+  padding-top: 5px;
+  font-size: 0.75rem;
+  text-transform: lowercase;
+}
+
 .arrival-time  {
   /* background-color: magenta; */
   color: #154E90;
-  width: 33.33%;
+  width: 25%;
   float: left;
   text-transform: capitalize;
   padding-right: 10px;
   text-align: right;
 }
-/* end line styles */
 
-.line {
-  clear: both;
+.arrival-time h2 {
+  color: gray;
+  font-size: 1rem;
+  padding-top: 3px;
+  text-align: left;
+  font-family: 'roboto', 'sans-serif';
+  font-weight: 300;
 }
+
+.arrival-time h3 {
+  color: gray;
+  padding-top: 5px;
+  font-size: 0.70rem;
+  text-align: left;
+  font-family: 'roboto', 'sans-serif';
+  font-weight: 300;
+}
+
+.resume-service h3{
+  color: #FF2E0D;
+  font-size: 0.70rem;
+  font-weight: 500;
+}
+
+.out-of-service h3 {
+  color: #FF2E0D;
+  font-weight: 500;
+}
+
+.re-route h3 {
+  color: #FFB10D;
+  font-weight: 500;
+}
+
+
+/* end line styles */
