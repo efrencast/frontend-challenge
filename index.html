@@ -10,9 +10,8 @@
   </head>
   <body>
     <section class="container">
-
       <!-- iphone menu bar -->
-      <nav>
+      <nav role="navigation">
         <img src="images/status-bar.jpg" alt="">
         <!-- <div class="arrow-left"> -->
           <div class="back-arrow">
@@ -27,11 +26,13 @@
       </nav>
       <!-- end iphone menu bar -->
 
-      <section class="data">
+      <main class="data" role="main">
         <div class="routes">
+          <!-- gray bars -->
           <div class="direction">
             <h1>Arriving Now</h1>
           </div>
+          <!-- end gray bars -->
           <!-- heading -->
           <div class="heading">
             <div class="first-column">
@@ -56,7 +57,7 @@
               <h3>Eastbound</h3>
             </div>
             <div class="arrival-time">
-              <h2>5 Min</h2>
+              <h2>1 Min</h2>
               <h3>Every 20m</h3>
             </div>
             </ul>
@@ -70,17 +71,17 @@
               <h3>Eastbound</h3>
             </div>
             <div class="arrival-time">
-              <h2>5 Min</h2>
+              <h2>3 Min</h2>
               <h3>Every 10m</h3>
             </div>
             </ul>
           </div>
           <!-- end of line: eastbound -->
-
+          <!-- gray bars -->
           <div class="direction">
             <h1>Arriving Next</h1>
           </div>
-
+          <!-- end gray bars -->
           <!-- line: northbound -->
           <div class="line">
             <div class="line-number">
@@ -91,7 +92,7 @@
               <h3>Northbound</h3>
             </div>
             <div class="arrival-time">
-              <h2>5 Min</h2>
+              <h2>8 Min</h2>
               <h3>Every 16m</h3>
             </div>
             </ul>
@@ -101,14 +102,14 @@
           <!-- line: southbound -->
           <div class="line">
             <div class="line-number">
-              <h2>j14</h2>
+              <h2>J14</h2>
             </div>
             <div class="route-name">
               <h2>103rd / Stony Island</h2>
               <h3>Southbound</h3>
             </div>
             <div class="arrival-time">
-              <h2>5 Min</h2>
+              <h2>10 Min</h2>
               <h3>Every 15m</h3>
             </div>
             </ul>
@@ -123,7 +124,7 @@
               <h3>Southbound</h3>
             </div>
             <div class="arrival-time">
-              <h2>5 Min</h2>
+              <h2>13 Min</h2>
               <h3>Every 10m</h3>
             </div>
             </ul>
@@ -156,7 +157,7 @@
               <h3>Out of Service</h3>
             </div>
             <div class="arrival-time resume-service">
-              <h2>resumes:</h2>
+              <h2>Resumes:</h2>
               <h3>12:10am</h3>
             </div>
             </ul>
@@ -171,7 +172,7 @@
               <h3>Out of Service</h3>
             </div>
             <div class="arrival-time resume-service">
-              <h2>resumes:</h2>
+              <h2>Resumes:</h2>
               <h3>12:10am</h3>
             </div>
             </ul>
@@ -186,14 +187,16 @@
               <h3 class="see">Out of Service</h3>
             </div>
             <div class="arrival-time resume-service">
-              <h2>resumes:</h2>
+              <h2>Resumes:</h2>
               <h3>6:00am</h3>
             </div>
             </ul>
           </div>
           <!-- end of line: out of service -->
-
-      </section>
+      </main>
+      <footer>
+        <img src="images/tab-bar.jpg" alt="">
+      </footer role="contentinfo">
     </section>
   </body>
 </html>
