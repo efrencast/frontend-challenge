@@ -19,7 +19,7 @@ nav {
   height: 85px;
 }
 
-/* fontawesome api */
+/* fontawesome cdn */
 .fa-bars {
   color: white;
   font-size: .75rem;
@@ -39,7 +39,7 @@ nav {
   padding-right: 20px;
   text-align: right;
 }
-/* end fontawesome api */
+/* end fontawesome cdn */
 
 .stop-name {
   width: 60%;
@@ -47,7 +47,7 @@ nav {
   padding-top: 35px;
 }
 
-.stop-name h1 {
+.stop-name h2 {
   color: white;
   text-transform: capitalize;
   font-size: 1rem;
@@ -65,7 +65,7 @@ img {
   overflow: scroll;
 }
 
-h1 {
+h2 {
   font-size: .75rem;
   text-transform: uppercase;
 }
@@ -78,7 +78,7 @@ h1 {
   text-align: center;
 }
 
-.direction h1 {
+.direction h2 {
   font-size: 0.70rem;
   font-weight: 500;
 }
@@ -133,7 +133,7 @@ h1 {
   padding-right: 10px;
 }
 
-.line-number h2 {
+.line-number h3 {
   font-size: 1.65rem;
   color: #1e1f21;
   font-weight: 400;
@@ -145,15 +145,17 @@ h1 {
   font-size: 1rem;
 }
 
-.route-name h2 {
+.route-name h3 {
   font-weight: 500;
   color: #1e1f21;
-  padding-top: 5px;
+  padding-top: 3px;
   font-size: 0.80rem;
   text-transform: uppercase;
+  background-image: url("../images/green.svg");
+  background-repeat: no-repeat;
 }
 
-.route-name h3 {
+.route-name h4 {
   font-weight: 400;
   color: #97979a;
   padding-top: 5px;
@@ -167,28 +169,73 @@ h1 {
   text-align: right;
 }
 
-.arrival-time h2 {
+.arrival-time h3 {
   color: #97979a;
   font-size: 1rem;
-  padding-top: 3px;
   text-align: left;
   font-weight: 400;
 }
 
-.arrival-time h3 {
+.arrival-time h4 {
   color: #97979a;
   padding-top: 5px;
   font-size: 0.70rem;
   text-align: left;
   font-weight: 300;
+  /* padding-left: 12px; */
+}
+/* change of service styles */
+.out-of-service h3 {
+  background-image: url("../images/red.svg");
+  background-repeat: no-repeat;
 }
 
-.out-of-service h3 {
+.out-of-service h4 {
   color: #FF2E0D;
   font-weight: 500;
 }
 
-.re-route h3 {
+.re-route h4 {
   color: #FFB10D;
   font-weight: 500;
 }
+/* end change of service styles */
+
+/* tab bar styles */
+.fa-exclamation-circle, .fa-bus-alt, .fa-map {
+  color: #ffffff;
+  font-size: 1.50rem;
+  padding-bottom: 10px;
+}
+
+footer {
+  height: 60px;
+  background-color: #154E90;
+}
+
+footer .footer-fa {
+  width: 33%;
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: center;
+
+}
+
+.footer-fa {
+  width: 33%;
+  float: left;
+  padding-right: 20px;
+
+}
+
+.footer-fa {
+  width: 33%;
+  float: left;
+}
+
+footer h5 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/* end tab bar styles */
